@@ -1,0 +1,25 @@
+/* Web Fonts */
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('assets/CooperHewitt-Heavy.otf') format('opentype'),
+        url('assets/CooperHewitt-Heavy.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+:root {
+    /* Colors */
+    --white: #ffffff;
+    --light-grey: #f2f2f2;
+    --light-grey2: #cbc9c9;
+    --dk-grey: #3a3a3a;
+    --dk-grey2: #404040;
+    --ash-grey: #707070;
+    --dk-green: #727812;
+    --dk-orange: #c65614;
+    --yellow: #b29124;
+
+    /* Fonts */
+    --cooper-hewitt: 'Cooper Hewitt', sans-serif;
+    --merriweather: "Merriweather Sans", sans-serif;
+}
